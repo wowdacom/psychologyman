@@ -1,8 +1,8 @@
 <template>
-  <div id="nav">
+  <!-- <div id="nav">
     <router-link to="/psychologyman/">Home</router-link> |
     <router-link to="/psychologyman/about">About</router-link>
-  </div>
+  </div> -->
   <router-view />
 </template>
 
