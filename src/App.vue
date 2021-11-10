@@ -1,5 +1,9 @@
 <template>
-  <h1>Getting Start</h1>
+  <div id="nav">
+    <router-link to="/psychologyman/">Home</router-link> |
+    <router-link to="/psychologyman/about">About</router-link>
+  </div>
+  <router-view />
 </template>
 
 <script setup>
